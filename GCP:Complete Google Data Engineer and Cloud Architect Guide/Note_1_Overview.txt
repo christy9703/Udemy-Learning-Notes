@@ -1,0 +1,12 @@
+-Major Topics
+-Minor Topics
+       - Compute
+       AppEngine, Compute Engine, Containers
+       - Logging and monitoring
+       Stack driver
+       -Security, Networking
+       API keys..
+
+
+- Required Context
+
