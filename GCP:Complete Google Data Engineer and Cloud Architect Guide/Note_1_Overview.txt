@@ -10,3 +10,6 @@
 
 - Required Context
 
+What is the top level billing unit in the Google CLoud Platform
+
+
