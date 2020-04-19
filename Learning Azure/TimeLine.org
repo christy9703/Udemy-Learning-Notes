@@ -1,0 +1,101 @@
+#+TODO: TODO IN-PROGRESS WAITING DONE
+
+* Learning Timeline
+
+** TODO Section 1 CourseOverView and Set Expectations
+   DEADLINE: <2020-04-19 Sun>
+
+** TODO Section 2 Introduction to Azure and Cloud Computing
+   DEADLINE: <2020-04-19 Sun>
+
+** TODO Section 3 Introduction to Data Engineer Profile
+   DEADLINE: <2020-04-20 Mon>
+
+** TODO Section 4 Azure SQL Database
+   DEADLINE: <2020-04-20 Mon>
+
+** TODO Section 5 Azure SQL Database Service for DBA and Developers
+   DEADLINE: <2020-04-20 Mon>
+
+** TODO Section 6 Azure SQL Server in Vitual Machine (laaS)
+   DEADLINE: <2020-04-20 Mon>
+
+** TODO Section 7 Azure Single Database
+   DEADLINE: <2020-04-21 Tue>
+
+** TODO Section 8 Elastic Database tool
+   DEADLINE: <2020-04-21 Tue>
+
+** TODO Section 9 Managed Instance Database
+   DEADLINE: <2020-04-21 Tue>
+
+** TODO Section 10 Azure Database security
+   DEADLINE: <2020-04-21 Tue>
+
+** TODO Section 11 Azure Database combine practice test
+   DEADLINE: <2020-04-21 Tue>
+
+** TODO Section 12 Azure SQL Data Warehouse
+   DEADLINE: <2020-04-22 Wed>
+
+** TODO Section 13 Introduction to Azure Synapse Analytcis Service
+   DEADLINE: <2020-04-22 Wed>
+
+** TODO Section 14 Azure Synapse Internal and Architecture
+   DEADLINE: <2020-04-23 Thu>
+
+** TODO Section 15 Data migration to Azure Synapse Datawarehouse
+   DEADLINE: <2020-04-24 Fri>
+
+** TODO Section 16 Security layers in Azure Synapse Service
+   DEADLINE: <2020-04-25 Sat>
+
+** TODO Section 17 Configuring and optimizing Azure Synapse Service
+   DEADLINE: <2020-04-25 Sat>
+
+** TODO Section 18 Azure Datalake
+   DEADLINE: <2020-04-25 Sat>
+
+** TODO Section 19 Introduction to Azure Datalake
+   DEADLINE: <2020-04-25 Sat>
+
+** TODO Section 20 Demo - Datalake
+   DEADLINE: <2020-04-25 Sat>
+
+** TODO Section 21 Azure Data Factory
+   DEADLINE: <2020-04-26 Sun>
+
+** TODO Section 22 Introduction to Azure Data Factory
+   DEADLINE: <2020-04-26 Sun>
+
+** TODO Section 23 Demo - Data Factory
+   DEADLINE: <2020-04-26 Sun>
+
+** TODO Section 24 HD - Insight
+   DEADLINE: <2020-04-26 Sun>
+
+** TODO Section 25 Introduction to HDInsight
+   DEADLINE: <2020-04-26 Sun>
+
+** TODO Section 26 Demo - HDInsight
+   DEADLINE: <2020-04-26 Sun>
+
+** TODO Section 27 Crash Courses for absolute beginners
+   DEADLINE: <2020-04-27 Mon>
+
+** TODO Section 28 Cloud Computing basics for absolute beginners
+   DEADLINE: <2020-04-27 Mon>
+
+** TODO Section 29 Data Warehouse crash course for absolute beginners
+   DEADLINE: <2020-04-27 Mon>
+
+** TODO Section 30 Hadoop crash course for absolute beginners 
+   DEADLINE: <2020-04-28 Tue>
+
+** TODO Section 31 Wrapping up
+   DEADLINE: <2020-04-28 Tue>
+
+
+
+
+
