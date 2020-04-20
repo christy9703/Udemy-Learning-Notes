@@ -2,11 +2,53 @@
 
 * Learning Timeline
 
-** TODO Section 1 CourseOverView and Set Expectations
+** DONE Section 1 CourseOverView and Set Expectations
    DEADLINE: <2020-04-19 Sun>
 
-** TODO Section 2 Introduction to Azure and Cloud Computing
+** DONE Section 2 Introduction to Azure and Cloud Computing
    DEADLINE: <2020-04-19 Sun>
+
+   - Azure Portal Overview
+     * Difference between resources and services
+     * Global search function
+
+   - Azure Services
+     * Cloud solution offers lot of benefits
+     * Variety of options provided
+     * Hybrid options can also be considered
+
+   - Managed and unmanaged services
+     * Services are grouped in Managed and Unmanaged
+     * Considerations
+     * Focused on ownership
+     * Shared responsibility
+     * Prefer managed services
+
+   - Resource group
+     * Resource in a resource group should share the same lifecycle
+     * Each resource can only exist in one resource group
+     * Resource can be added or remobed from a resource group at any time
+     * Resource can be moved from one resource group to another
+      .....
+
+   - Resource provider
+   - Tagging
+     * Tagas are additional metadata associated with Microsoft Azure ARM resources
+     * Organized deployed Azure resources
+     ....
+
+   - Access control
+     Role based access control (RBAC)
+     * Management groups
+     * Subscription
+     * Resource group
+     * Individual resource
+       
+       Owner: Manage resources
+       Contributor: 
+       Reader: read access only
+
+ 
 
 ** TODO Section 3 Introduction to Data Engineer Profile
    DEADLINE: <2020-04-20 Mon>
