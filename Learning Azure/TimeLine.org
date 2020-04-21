@@ -50,17 +50,98 @@
 
  
 
-** TODO Section 3 Introduction to Data Engineer Profile
+** DONE Section 3 Introduction to Data Engineer Profile
    DEADLINE: <2020-04-20 Mon>
 
-** TODO Section 4 Azure SQL Database
+   - Data Engineer role
+     * Data Life Cycle
+       - Ingest -> Explore -> Prep & Train -> Model & Serve (80% of Data Life Cycle)
+
+     * DE vs. DS vs. DA
+     
+
+** DONE Section 4 Azure SQL Database
    DEADLINE: <2020-04-20 Mon>
 
-** TODO Section 5 Azure SQL Database Service for DBA and Developers
-   DEADLINE: <2020-04-20 Mon>
+   - Why choosing Azure Database
+     * Fully Managed 
+     * Predictable performance and pricing 
+     * Elastic pool for unpredictable workloads
+     * 99.99% availability built-in
+     * Geo-replication snd restore services (disaster recovery)
+     * supports existing SQL server tools,liraries
+     * Scalability with no downtime
+     * Security
 
-** TODO Section 6 Azure SQL Server in Vitual Machine (laaS)
+   - IaaS vs PaaS Database offerings
+     * SQL Server on Azure VMs
+       - Infrastructure-as-a-service
+       - Migrate without any database change
+       - Full control over database engine
+       - Can bring existing license
+
+     * Azure SQL Database
+       - Platform-as-a-service
+       - Additional features
+       - Pay-as-you-go service
+       - Multiple deployment options and tiers
+
+     * Responsibility comparison
+       SQL Server Azure VMs:
+       - Maintain operating system
+       - Maintain sql server
+       - High availability
+       - Disaster recovery 
+       - Performance
+       - Change control
+       - Security
+
+       Azure SQL Database:
+       - Choosing the right service tier
+       - Test the high availability and disaster recovery
+       - Performance
+       - Change control
+       - Security
+
+   - SQL Server (PaaS) Deployment options
+     - Single
+       Each DB with its own guaranteed compute, memory and storage 
+    
+     - Elastic pool
+       Fixed resources will be shared by all databases in the pool
+
+     - Managed Instance
+       Each managed instance has its guaranteed resources 
+
+   - IaaS - Azure Database in Virtual Machine
+
+
+   - Azure Single Database deployment
+
+
+   - Purchasing model and service tier
+
+   - Azure Database vs Azure Datawarehouse
+
+   - Elastic pool deployment
+
+   - Managed Instance
+     
+
+
+   - Security
+
+     
+** DONE Section 5 Azure SQL Database Service for DBA and Developers
    DEADLINE: <2020-04-20 Mon>
+   Notes see above
+
+
+** DONE Section 6 Azure SQL Server in Vitual Machine (laaS)
+   DEADLINE: <2020-04-20 Mon>
+   Notes see above
+   Demo - SQL Server in Azure Vitual Machine 
+
 
 ** TODO Section 7 Azure Single Database
    DEADLINE: <2020-04-21 Tue>
