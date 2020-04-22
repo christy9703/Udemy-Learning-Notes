@@ -143,20 +143,94 @@
    Demo - SQL Server in Azure Vitual Machine 
 
 
-** TODO Section 7 Azure Single Database
+** DONE Section 7 Azure Single Database
    DEADLINE: <2020-04-21 Tue>
 
-** TODO Section 8 Elastic Database tool
+   - want to use SQL elastic pool: no!
+     Put one or more database inside..
+     
+   - Connectivity method: Public endpoint
+   - firewall rule: if there is a firewall error
+   - local SQL Server: server name, credentials
+     * firewall error: server name -> security -> firewalls and virtual networks -> turn on the BUTTON -> add client IP
+     * create new virtual network 
+
+   - Purchasing tier
+     * DTUs (Purchase models CPU + Memory +I/O)
+       - Basic
+       - Standard
+       - Premium
+	 
+	 need calculation before migration 
+
+     * vCore(Independently scale compute and memory)
+       - General purpose
+       - Business critical
+       - Hyperscale
+	 
+	 more flexible
+     * Converting DTU-based model to vCore based
+
+   - Azure SQL Database
+     * OLTP/CRUD
+     * SMP
+     * Vertical Scale
+
+   - Azure SQL Data Warehouse 
+     * OLAP/query and reporting
+     * MPP
+     * Horizontal Scale
+     
+      
+
+** DONE Section 8 Elastic Database tool
    DEADLINE: <2020-04-21 Tue>
 
-** TODO Section 9 Managed Instance Database
+   - cost effective
+   - Share a set number of resources
+
+
+** DONE Section 9 Managed Instance Database
+   DEADLINE: <2020-04-21 Tue>
+ 
+   - Azure Database Managed Instance
+     * 100% compatibility with SQL Server on premises
+     * lift and shift onpremises applications with minimal change
+     * Native virtual network implementation
+     * Preserves all PaaS capabilities
+
+   - Vitual Server -> virtual machine -> Subnet -> Public IP 
+
+
+** DONE Section 10 Azure Database security
    DEADLINE: <2020-04-21 Tue>
 
-** TODO Section 10 Azure Database security
-   DEADLINE: <2020-04-21 Tue>
+   - Azure Database Security
+   - 4 layers of defense
+     * Network security
+       IP firewall rules
+       Virtual network firewall rules
+
+     * Access management
+       Authentication 
+       Authorization
+
+     * Threat protection 
+       SQL auditing in Azure monitor logs and Event Hubs 
+       Advanced threat protection
+
+     * Information protect
+       Transport Layer security TLS
+       Transparent Data Encryption
+       Dynamic Data masking
+
+     * Security Management
+       Vulnerability
+       Data discovery & Classification
+
 
 ** TODO Section 11 Azure Database combine practice test
-   DEADLINE: <2020-04-21 Tue>
+   DEADLINE: <2020-04-25 Sat>
 
 ** TODO Section 12 Azure SQL Data Warehouse
    DEADLINE: <2020-04-22 Wed>
