@@ -258,10 +258,51 @@
 
 
 
-** TODO Section 14 Azure Synapse Internal and Architecture
+** DONE Section 14 Azure Synapse Internal and Architecture
    DEADLINE: <2020-04-23 Thu>
 
-** TODO Section 15 Data migration to Azure Synapse Datawarehouse
+  - Azure Synapse MPP Architecture
+    * Control Node (brain of datawarehouse)
+    * Maasively Parallel Process Engine 
+    * Compute Nodes
+  - Azure Storage and Distribution
+    * SQL DW charges separately for storage consumption
+    * A distribution is the basic unit of storage...
+    ....
+
+  - Replicated Tables
+    * Caches a full copu on each compute node
+    * Used for small tables
+  - Round Robin Tables
+    * Generally use to load staging tables
+    * Distribute data evenly across the table without additional optimization
+    * Joins are slow, because it requires reshuffle data
+    * Default distribution type
+  - Hash Distibution Tables
+    * Highest performance for large tables
+    * Each row belong to one particular distribution
+    * It is used for large table 
+  - Avoid Data Skew
+  - Distribution key
+    * Determines the method in which Azure SQL Data Warehouse..
+    * Good Hash Key
+      - Distribute evenly
+      - used for grouping
+      - used as join condition
+      - is not updatable
+      - has more than 60 distinct values
+  - Data Types
+    * Use the smallest data tyoe which will support your data
+    * Avoid defining all ..
+  - Table Types
+    * Clustered columnstore
+    * Heap
+    * Clustered index
+
+  - Table Partitioning 
+
+ 
+** TODO Section 15 Datamigration to Azure Synapse Datawarehouse
    DEADLINE: <2020-04-24 Fri>
 
 ** TODO Section 16 Security layers in Azure Synapse Service
