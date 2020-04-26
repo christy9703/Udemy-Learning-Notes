@@ -232,11 +232,31 @@
 ** TODO Section 11 Azure Database combine practice test
    DEADLINE: <2020-04-25 Sat>
 
-** TODO Section 12 Azure SQL Data Warehouse
+** DONE Section 12 Azure SQL Data Warehouse
+   DEADLINE: <2020-04-22 Wed>
+   - Introduction 
+    
+
+   
+** DONE Section 13 Introduction to Azure Synapse Analytcis Service
    DEADLINE: <2020-04-22 Wed>
 
-** TODO Section 13 Introduction to Azure Synapse Analytcis Service
-   DEADLINE: <2020-04-22 Wed>
+   -Why Warehousing in Cloud?
+      * No large capital expense
+      * No hardware maintainence
+      * Scalability
+      * Cost (Storage and Compute separately)
+      * MPP (Massive Parallel Processing)
+      * Time to market 
+
+  - Old data warehouse vs. Modern Data Warehousing
+
+  - Azure Synapse Analytics
+      * DataLake 
+      * SQL/Spark
+
+
+
 
 ** TODO Section 14 Azure Synapse Internal and Architecture
    DEADLINE: <2020-04-23 Thu>
