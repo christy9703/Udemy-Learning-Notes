@@ -302,56 +302,73 @@
   - Table Partitioning 
 
  
-** TODO Section 15 Datamigration to Azure Synapse Datawarehouse
+** DONE Section 15 Data migration to Azure Synapse Datawarehouse
    DEADLINE: <2020-04-24 Fri>
+   - Loading Methods
+     * Single Client Loading Methods
+       - SSIS
+       - Azure Data Factory
+       - BCP
+       - Can add some parallel capabilities but are bottlenecked at the control ndoe
+
+     * Parallel readers loading methods
+       - Polybase
+       - Readers from Blob storage
+
+   - Loading with SSIS
+   - Loading with PolyBase (large file)
+
+** TODO Quiz & Lab 
+   DEADLINE: <2020-04-27 Mon>
+
 
 ** TODO Section 16 Security layers in Azure Synapse Service
-   DEADLINE: <2020-04-25 Sat>
+   DEADLINE: <2020-04-27 Mon>
 
 ** TODO Section 17 Configuring and optimizing Azure Synapse Service
-   DEADLINE: <2020-04-25 Sat>
+   DEADLINE: <2020-04-28 Tue>
 
 ** TODO Section 18 Azure Datalake
-   DEADLINE: <2020-04-25 Sat>
+   DEADLINE: <2020-04-29 Wed>
 
 ** TODO Section 19 Introduction to Azure Datalake
-   DEADLINE: <2020-04-25 Sat>
+   DEADLINE: <2020-04-29 Wed>
 
 ** TODO Section 20 Demo - Datalake
-   DEADLINE: <2020-04-25 Sat>
+   DEADLINE: <2020-04-29 Wed>
 
 ** TODO Section 21 Azure Data Factory
-   DEADLINE: <2020-04-26 Sun>
+   DEADLINE: <2020-04-30 Thu>
 
 ** TODO Section 22 Introduction to Azure Data Factory
-   DEADLINE: <2020-04-26 Sun>
+   DEADLINE: <2020-04-30 Thu>
 
 ** TODO Section 23 Demo - Data Factory
-   DEADLINE: <2020-04-26 Sun>
+   DEADLINE: <2020-04-30 Thu>
 
 ** TODO Section 24 HD - Insight
-   DEADLINE: <2020-04-26 Sun>
+   DEADLINE: <2020-05-01 Fri>
 
 ** TODO Section 25 Introduction to HDInsight
-   DEADLINE: <2020-04-26 Sun>
+   DEADLINE: <2020-05-01 Fri>
 
 ** TODO Section 26 Demo - HDInsight
-   DEADLINE: <2020-04-26 Sun>
+   DEADLINE: <2020-05-01 Fri>
 
 ** TODO Section 27 Crash Courses for absolute beginners
-   DEADLINE: <2020-04-27 Mon>
+   DEADLINE: <2020-05-02 Sat>
 
 ** TODO Section 28 Cloud Computing basics for absolute beginners
-   DEADLINE: <2020-04-27 Mon>
+   DEADLINE: <2020-05-02 Sat>
 
 ** TODO Section 29 Data Warehouse crash course for absolute beginners
-   DEADLINE: <2020-04-27 Mon>
+   DEADLINE: <2020-05-02 Sat>
 
 ** TODO Section 30 Hadoop crash course for absolute beginners 
-   DEADLINE: <2020-04-28 Tue>
+   DEADLINE: <2020-05-02 Sat>
 
 ** TODO Section 31 Wrapping up
-   DEADLINE: <2020-04-28 Tue>
+   DEADLINE: <2020-05-03 Sun>
 
 
 
